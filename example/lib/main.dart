@@ -60,21 +60,26 @@ class _MyAppState extends State<MyApp> {
             Center(
               child: Text('Running on: $_platformVersion\n'),
             ),
-            TextButton(onPressed: () async {
-              if(Platform.isIOS){
-              final result = await AliBcTaokeSdk.init();
-              print('插件返回了:$result');
-              }
-            }, child: const Text("初始化Alibaichuan")),
-
-            TextButton(onPressed: () async {
-              if(Platform.isIOS){
-                final result = await AliBcTaokeSdk.login();
-                if(result!=null){
-                  print('登录成功:$result');
-                }
-              }
-            }, child: const Text("登录"))
+            TextButton(
+                onPressed: () async {
+                  if (Platform.isIOS) {
+                    final result = await AliBcTaokeSdk.init();
+                    if (result) {
+                      // 初始化成功
+                    }
+                  }
+                },
+                child: const Text("初始化Alibaichuan")),
+            TextButton(
+                onPressed: () async {
+                  if (Platform.isIOS) {
+                    final result = await AliBcTaokeSdk.login();
+                    if (result != null) {
+                      print('登录成功:$result');
+                    }
+                  }
+                },
+                child: const Text("登录"))
           ],
         ),
       ),
