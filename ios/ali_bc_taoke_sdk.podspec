@@ -38,7 +38,8 @@ A new Flutter project.
   s.dependency 'Reachability'
   s.dependency 'SocketRocket'
   s.dependency 'SSZipArchive'
-  s.dependency  'SDWebImage'
+  s.dependency 'SDWebImage'
+  s.dependency 'AlibcTradeSDK'
   s.platform = :ios, '9.0'
   
 

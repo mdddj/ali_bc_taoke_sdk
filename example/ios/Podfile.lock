@@ -1,6 +1,7 @@
 PODS:
   - ali_bc_taoke_sdk (0.0.1):
     - AliAuthSDK (= 1.1.0.42-BC3)
+    - AlibcTradeSDK
     - AlibcTradeUltimateSDK (= 5.0.0.7)
     - AlibcTradeUltimateSDK/MiniApp (= 5.0.0.7)
     - AliLinkPartnerSDK (= 4.0.0.24-wk)
@@ -25,6 +26,7 @@ PODS:
     - WindMix (= 1.0.4-BC1)
     - WindVane (= 8.5.0.46-bc11)
   - AliAuthSDK (1.1.0.42-BC3)
+  - AlibcTradeSDK (4.0.1.16)
   - AlibcTradeUltimateSDK (5.0.0.7):
     - AlibcTradeUltimateSDK/Base (= 5.0.0.7)
   - AlibcTradeUltimateSDK/Base (5.0.0.7)
@@ -135,6 +137,7 @@ DEPENDENCIES:
 SPEC REPOS:
   http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git:
     - AliAuthSDK
+    - AlibcTradeSDK
     - AlibcTradeUltimateSDK
     - AliLinkPartnerSDK
     - Ariver
@@ -164,8 +167,9 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  ali_bc_taoke_sdk: 0d723f9ccdd7f2eda79b6827f1d16410b899ab18
+  ali_bc_taoke_sdk: da486207869a17fcfae7992c7060b418059e1687
   AliAuthSDK: 731398a72bdada5defe9cf01909a58f720574551
+  AlibcTradeSDK: 67c06637a06d6a4188a4dbcb0e59153be8b2f97b
   AlibcTradeUltimateSDK: e1a45a360fc3c6cc33ccda5129d338b9706b974a
   AliLinkPartnerSDK: a695bd4c73bdd7ea555a2a70d92fbcb9782ffd3f
   Ariver: 02c2f634db748b56761dd97884b1eb15c6317153
